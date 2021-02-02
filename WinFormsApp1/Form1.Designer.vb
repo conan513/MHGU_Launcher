@@ -67,7 +67,7 @@ Partial Class Launcher
         Me.RichTextBox2.Name = "RichTextBox2"
         Me.RichTextBox2.Size = New System.Drawing.Size(211, 82)
         Me.RichTextBox2.TabIndex = 3
-        Me.RichTextBox2.Text = "Tips:" & Global.Microsoft.VisualBasic.ChrW(10) & "- Disable Vsync to reach 60FPS+" & Global.Microsoft.VisualBasic.ChrW(10) & "- Enable docked mode for better graphics"
+        Me.RichTextBox2.Text = "Tips:" & Global.Microsoft.VisualBasic.ChrW(10) & "- Disable Vsync to reach 60FPS+" & Global.Microsoft.VisualBasic.ChrW(10) & "- Enable docked mode for better graphics" & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Launcher
         '
