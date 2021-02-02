@@ -6,6 +6,9 @@ Public Class Launcher
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        If (Not System.IO.Directory.Exists("data")) Then
+            System.IO.Directory.CreateDirectory("data")
+        End If
         ChDir("ref")
         Process.Start("MHGU_Game.bat")
         ChDir("..")
