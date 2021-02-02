@@ -1,0 +1,1 @@
+Copy the ryujinx emulator in this folrder.

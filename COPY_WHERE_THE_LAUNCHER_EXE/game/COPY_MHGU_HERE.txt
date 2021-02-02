@@ -1,0 +1,1 @@
+Copy the game in this folder, name it to MHGU_Game.nsp

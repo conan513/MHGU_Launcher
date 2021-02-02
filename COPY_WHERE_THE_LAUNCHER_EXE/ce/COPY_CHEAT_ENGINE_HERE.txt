@@ -1,0 +1,2 @@
+Download and install Cheat Engine into this folder.
+You can install into Program Files and just copy the CE files into this folder.
