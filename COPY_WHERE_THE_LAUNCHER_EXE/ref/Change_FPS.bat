@@ -3,7 +3,7 @@ cd ..
 set maindir=%CD%
 
 :check_ce
-if exist "%maindir%\Cheat Engine.exe" goto ce_install_pass
+if exist "%maindir%\ce\Cheat Engine.exe" goto ce_install_pass
 echo Please copy or install the Cheat Engine files into "ce" folder.
 echo.
 pause
