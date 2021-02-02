@@ -26,6 +26,7 @@ Partial Class Launcher
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -52,13 +53,21 @@ Partial Class Launcher
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(265, 347)
+        Me.RichTextBox1.Location = New System.Drawing.Point(365, 347)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(269, 82)
         Me.RichTextBox1.TabIndex = 2
         Me.RichTextBox1.Text = "Big thanks to:" & Global.Microsoft.VisualBasic.ChrW(10) & "- Capcom (for the game of course)" & Global.Microsoft.VisualBasic.ChrW(10) & "- Ryujinx (https://ryujinx.org/)" &
     "" & Global.Microsoft.VisualBasic.ChrW(10) & "- Cheat Engine (https://www.cheatengine.org/)" & Global.Microsoft.VisualBasic.ChrW(10) & "- Dirty#6349 (for the FPS limit s" &
     "cript)"
+        '
+        'RichTextBox2
+        '
+        Me.RichTextBox2.Location = New System.Drawing.Point(148, 347)
+        Me.RichTextBox2.Name = "RichTextBox2"
+        Me.RichTextBox2.Size = New System.Drawing.Size(211, 82)
+        Me.RichTextBox2.TabIndex = 3
+        Me.RichTextBox2.Text = "Tips:" & Global.Microsoft.VisualBasic.ChrW(10) & "- Disable Vsync to reach 60+ FPS" & Global.Microsoft.VisualBasic.ChrW(10) & "- Enable docked mode for better graphics"
         '
         'Launcher
         '
@@ -68,6 +77,7 @@ Partial Class Launcher
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(783, 441)
+        Me.Controls.Add(Me.RichTextBox2)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -85,4 +95,5 @@ Partial Class Launcher
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents RichTextBox2 As RichTextBox
 End Class
