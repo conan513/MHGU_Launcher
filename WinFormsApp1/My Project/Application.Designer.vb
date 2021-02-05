@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.MHGU_Launcher.Launcher
+            Me.MainForm = Global.PortableNSWE_Launcher.Launcher
         End Sub
     End Class
 End Namespace

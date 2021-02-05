@@ -39,7 +39,7 @@ Namespace My.Resources
         Friend ReadOnly Property ResourceManager() As Global.System.Resources.ResourceManager
             Get
                 If Object.ReferenceEquals(resourceMan, Nothing) Then
-                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("MHGU_Launcher.Resources", GetType(Resources).Assembly)
+                    Dim temp As Global.System.Resources.ResourceManager = New Global.System.Resources.ResourceManager("PortableNSWE_Launcher.Resources", GetType(Resources).Assembly)
                     resourceMan = temp
                 End If
                 Return resourceMan
@@ -63,9 +63,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Box_Art_MHGU_SW_US() As System.Drawing.Bitmap
+        Friend ReadOnly Property _749930() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Box_Art-MHGU_SW_US", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("_749930", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -73,9 +73,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         '''</summary>
-        Friend ReadOnly Property mhwi_glavenus_icon() As System.Drawing.Icon
+        Friend ReadOnly Property Daco_6132028() As System.Drawing.Icon
             Get
-                Dim obj As Object = ResourceManager.GetObject("mhwi_glavenus_icon", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Daco_6132028", resourceCulture)
                 Return CType(obj,System.Drawing.Icon)
             End Get
         End Property

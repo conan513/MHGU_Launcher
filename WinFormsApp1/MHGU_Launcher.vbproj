@@ -3,16 +3,17 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <RootNamespace>MHGU_Launcher</RootNamespace>
+    <RootNamespace>PortableNSWE_Launcher</RootNamespace>
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
-    <ApplicationIcon>Resources\mhwi-glavenus_icon.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Daco_6132028.ico</ApplicationIcon>
     <SignAssembly>false</SignAssembly>
     <Authors>Conan</Authors>
     <Company>Single Player Project</Company>
     <Version>1.0</Version>
     <Copyright>Single Player Project (2012-2021)</Copyright>
+    <AssemblyName>PortableNSWE_Launcher</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
